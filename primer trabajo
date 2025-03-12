@@ -1,0 +1,18 @@
+import time
+meme_dict = {
+            "CRINGE": "CRINGE significa: Algo excepcionalmente raro o embarazoso",
+            "LOL": "LOL significa: Una respuesta común a algo gracioso",
+            "XD": "XD significa: Una respuesta comun a algo demasiado gracioso",
+            "ROFL": "ROFL significa: Una respuesta a una broma",
+            "SHEESH": "SHEESH significa: Ligera desaprobacion",
+            "CREEPY": "CREEPY significa: Aterrador,siniestro",
+            "AGGRO":  "AGGRO significa: Ponerse agresivo/enojado"
+            }
+word = input("Escribe una palabra que no entiendas (¡con mayúsculas!):")
+
+if word in meme_dict.keys():
+    print("La palabra que usted ingreso fue encontrada en en el diccionario")
+    time.sleep(3)
+    print(meme_dict[word])
+else:
+     print("La palabra que usted ingreso no fue encontrada en el diccionario")
