@@ -1,4 +1,4 @@
-import time
+
 meme_dict = {
             "CRINGE": "CRINGE significa: Algo excepcionalmente raro o embarazoso",
             "LOL": "LOL significa: Una respuesta común a algo gracioso",
@@ -12,7 +12,6 @@ word = input("Escribe una palabra que no entiendas (¡con mayúsculas!):")
 
 if word in meme_dict.keys():
     print("La palabra que usted ingreso fue encontrada en en el diccionario")
-    time.sleep(3)
     print(meme_dict[word])
 else:
      print("La palabra que usted ingreso no fue encontrada en el diccionario")
